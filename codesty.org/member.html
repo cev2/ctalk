@@ -1,0 +1,1529 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<!-- Mirrored from codesty.org/member by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 17 Feb 2022 15:13:31 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="public/styles/member.css">
+<link rel="stylesheet" href="public/styles/bulma.css">
+<script src="../ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" type="a79fdab51f18d496fb4af557-text/javascript"></script>
+<script src="public/scripts/all.js" type="a79fdab51f18d496fb4af557-text/javascript"></script>
+<script src="../kit.fontawesome.com/eb7d57ccb9.js" crossorigin="anonymous" type="a79fdab51f18d496fb4af557-text/javascript"></script>
+<link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+<link rel="stylesheet" href="public/styles/all.css">
+<meta name="og:description" content="Discord sunucuları ve kullanıcıları için istatistiklerin ve rekabet ortamının bulunduğu; yarattığı fark ile tercih edilen adaletli ve yenilikçi bir topluluk projesi.">
+<meta name="description" content="Discord sunucuları ve kullanıcıları için istatistiklerin ve rekabet ortamının bulunduğu; yarattığı fark ile tercih edilen adaletli ve yenilikçi bir topluluk projesi.">
+<meta name="keywords" content="codesty.org, codesty, ses sıralaması, topluluk projesi, discord, discord kullanıcı istatistik, discord sunucu istatistik, discord istatistikleri, anlık ses sıralaması, discord sunucusu, discord sunucu bilgi, discord sunucu ara, discord kullanıcı ara, kullanıcı ara, kullanıcı bul, sunucu bul, discord sunucu reklam, code sty, discordsunucusu, discord sunuu keşfet, sunucu keşfet, sunucu kesfet, ses sıralaması, sunucu sıralaması, discord ses sunucu, discord ses, discord sunucu, discord sunucu sıralaması">
+<meta name="google-site-verification" content="ARYSXUwTyiHQkwTmJxknfAFE4hgW2AwiPTMp3PfReCk" />
+<meta name="og:type" content="website">
+<meta name="og:title" content="Codesty">
+<meta name="og:image" content="https://toasty.is-pretty.cool/3axutuY.png">
+<meta name="og:image:width" content="200">
+<meta name="og:image:height" content="200"><meta http-equiv="content-language" content="tr">
+<link rel="icon" type="image/gif/png" href="public/images/logo-beyaz.png">
+<link rel="stylesheet" href="../unpkg.com/balloon-css%401.2.0/balloon.min.css">
+<title>Codesty Üye Sıralaması</title>
+<script async src='cdn-cgi/challenge-platform/h/b/scripts/invisible.js'></script></head>
+<body>
+<div class="preloader" style="opacity: 1 !important;">
+<div class="lds-roller"><div></div><div></div><div></div><div></div></div>
+</div>
+<nav class="navbar" role="navigation" class="navbar is-fixed-top">
+<div class="container">
+<div class="navbar-brand">
+<a class="navbar-item is-selected" href="index.html">
+<img src="public/images/codesty_white.png" width="112" height="28">
+</a>
+<a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+<span aria-hidden="true"></span>
+<span aria-hidden="true"></span>
+<span aria-hidden="true"></span>
+</a>
+</div>
+<div id="navbarBasicExample" class="navbar-menu">
+<div class="navbar-start">
+<a class="navbar-item" href="trend/all.html">
+Oy Sıralaması
+</a>
+<a class="navbar-item" href="discord/tools.html">
+Araçlarımız
+</a>
+<a class="navbar-item" href="partners.html">
+Ortaklarımız
+</a>
+<a class="navbar-item" href="docs.html">
+Yardım
+</a>
+<a class="navbar-item is-hidden nav-mobile" href="member.html">
+Üye Sayısı Sıralaması
+</a>
+<a class="navbar-item is-hidden nav-mobile" href="boost.html">
+Boost Sıralaması
+</a>
+<a class="navbar-item is-hidden nav-mobile" href="rekor.html">
+Rekor Ses Sıralaması
+</a>
+<div class="navbar-item has-dropdown is-hoverable" id="close-dropdown">
+<a class="navbar-link target-closed">
+Diğer
+</a>
+<div class="navbar-dropdown">
+<a class="navbar-item" href="member.html">
+Üye Sayısı Sıralaması
+</a>
+<a class="navbar-item" href="boost.html">
+Boost Sıralaması
+</a>
+<a class="navbar-item" href="rekor.html">
+Rekor Ses Sıralaması
+</a>
+</div>
+</div>
+</div>
+<div class="navbar-end">
+<a class="navbar-item" href="server/756242099267043349.html">
+Rastgele Sunucu
+</a>
+<a class="navbar-item" href="bot.html">
+Botu Ekle
+</a>
+<a class="navbar-item" href="https://discord.gg/W6MQrx8yZ3">
+Destek Sunucusu
+</a>
+<a class="navbar-item" href="login.html">
+<i class="fab fa-discord" style="margin-right: 9px !important; color: #fff !important;"></i>
+Giriş Yap
+</a>
+</div>
+</div>
+</div>
+</nav>
+<section class="hero halfheight" style="text-align: center; background-color: #111; margin-top: 35px;">
+<div class="hero-body">
+<div class="my-element animate__animated animate__bounceIn">
+<img src="public/images/toasty.png" class="unselectable" width="120" height="120" style="margin-bottom: 10px;">
+<h1 class="title has-text-black-bis" style="color: #f5f5f5 !important; margin-bottom: 30px;">Üye Sayısı Sıralaması </h1>
+</div>
+<div class="my-element animate__animated animate__bounceIn">
+<p style="color: #e2e2e2 !important;">Botumuzun bulunduğu sunucular arasından en fazla üyeye sahip sunucular sıralanmaktadır.</a></p>
+</div>
+</div>
+</section>
+<div style="background-color: #111 !important;">
+<div class="server-listx" style="background-color: #111 !important;">
+<div class="bottompart" style=" margin-left:auto; margin-right:auto; text-align: center; margin-top: 7px; margin-bottom: 50px; display: initial;">
+<div class="card mb-3 server-list top-4 tet h-item" id="583678878489378827" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'server/583678878489378827.html'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/583678878489378827/a_99309223b898d16cd89468bc76e85a40.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>GIFLAND
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #69b8ca; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">381.334</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="662637584693985282" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'server/662637584693985282.html'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/662637584693985282/a_cbf73363d471f19d048a63663c14d04b.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>GIFBASE
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #dfcc60; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">322.508</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="538038727654768652" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'server/538038727654768652.html'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/538038727654768652/a_f3756ba83e8580149c1fac7ac68d0bfb.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>▽ ATLANTIS
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #ad8052; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">232.955</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="561932459835392011" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'server/561932459835392011.html'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/561932459835392011/a_9791e189a67170971c4663db79e8e28b.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>GIF AURA ❄
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">192.483</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="589413911304863746" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'server/589413911304863746.html'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/589413911304863746/a_ca5ecd9ae0b50af5a9213582b0428b9e.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>GIF SHARE 💎
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">179.026</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="790338834214813767" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'server/790338834214813767.html'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/790338834214813767/f017afbf90a72b3a117e9064e91ea593.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>SERVER LIST
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">130.644</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="713539358333993000" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'server/713539358333993000.html'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/713539358333993000/a_4a23bf9d2e40e4d40e5814d1260174a4.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>Linkler Diyarı #Case
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">126.208</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="804772365761380382" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'server/804772365761380382.html'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/804772365761380382/820721df7a63c094ba15383c98f79ed5.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>1948
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">125.763</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="749213856504741919" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'server/749213856504741919.html'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/749213856504741919/a_d4c2e79a31cbf24e7e245bf72f6db53b.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>Brazzers #Case
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">125.451</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="629688704746782740" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'server/629688704746782740.html'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/629688704746782740/a_efd50e1b9090fc0ad28cad238cf69417.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>ServerLand #115K
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">116.281</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="860536019508920340" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'server/860536019508920340.html'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/860536019508920340/a_4f4b2529a1a60c185c85ccc777329f63.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>J4JBASE #150K
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">110.384</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="805047843416178688" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'server/805047843416178688.html'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/805047843416178688/0e43f3a51aa1fe7a82cc2c13e102e5bf.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>1943
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">101.645</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="634437923500195853" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'server/634437923500195853.html'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/634437923500195853/a_cce7fdb607275dbb1fa474036d04d2c6.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>☆ S H A N N A R A
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">87.442</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="727881213406347282" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'server/727881213406347282.html'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/727881213406347282/a_e7c39a1dfe485c3b0f63399d444d34da.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>☨ Dark Paradise #...
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">87.048</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="870185718092275722" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'server/870185718092275722.html'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/870185718092275722/f3cf19bc0f73e722c480f88960f48f49.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>Discord Dark List
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">81.045</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="784116781387874316" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'server/784116781387874316.html'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/784116781387874316/764e184563cffda31976e717fa044a94.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>Uncle G
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">74.480</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="793926948921278474" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'server/793926948921278474.html'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/793926948921278474/a_2f7970e34e2d90672ae6370ae1abb538.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>Virtual Community...
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">72.350</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="269782369714569226" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'server/269782369714569226.html'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/269782369714569226/54c829f9fbb0c5272751cc84b2cd0d5f.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>Samet Parlak
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">70.349</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="690634134493593610" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'server/690634134493593610.html'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/690634134493593610/a_dca84602dd2cc33b536c7e7c25e863d2.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>pfps club 🦋
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">70.201</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="836331864473468939" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'server/836331864473468939.html'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/836331864473468939/a_69c9664e2f36c4e659ec12cd4ef6b183.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>LinkHub #Case
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">68.166</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="643883258718978049" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'server/643883258718978049.html'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/643883258718978049/79be352cb951e7ee190dc9d2ea7afaee.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>The Sandbox NFT
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">64.242</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="745397056440500240" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'server/745397056440500240.html'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/745397056440500240/a0f4ba43b166427a34fd5b7895409ed7.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>Valorant FPS
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">63.712</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="714451942100959263" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'server/714451942100959263.html'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/714451942100959263/a_9d6c92a20e73cd2eaf3e7a00c6de3408.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>#2012 #AİLEDEĞİL...
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">62.282</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="739832272475127819" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'server/739832272475127819.html'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/739832272475127819/a_dc0945683a0963f875d2ab1d817f7b4b.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>⍭ A Q U A L I T Y
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">55.994</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="762733633852145675" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'server/762733633852145675.html'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/762733633852145675/a_c60bf998977efd098d5336626f4ef0c8.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>Keyla Everthing
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">53.321</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="784193679594094642" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'server/784193679594094642.html'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/784193679594094642/a_46348d7a80290b967f38d363fdb6b718.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>Cry MM Service
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">51.390</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="694161394375065620" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'server/694161394375065620.html'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/694161394375065620/a_f9b4b3d529d8d4b7bb1957a023eb795c.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>☾ Türklerin50Tonu
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">47.706</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="756242099267043349" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'server/756242099267043349.html'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+ <img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/756242099267043349/a_4402b42e0babb0a4382a7c4fc7de0dc9.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>GIF SPACE • 45K
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">45.919</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="707544645168660490" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'server/707544645168660490.html'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/707544645168660490/a_9f15702da2655a8c905c6b5f35504e8a.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>Darkcode Developm...
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">45.371</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="659549142086975515" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'server/659549142086975515.html'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/659549142086975515/a_91061b7071ff267706b03faff45fd812.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>JUSTICE J4J • 50K
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">44.992</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="679338357884715035" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'server/679338357884715035.html'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/679338357884715035/c4d56a8762fa438b1b1639747af88879.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>Love My Life
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">44.839</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="713768319706202192" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'server/713768319706202192.html'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/713768319706202192/a_6f80bd68e0220667ee3863cb811d4aae.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>GIF Store
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">44.544</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="596033534657953866" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'server/596033534657953866.html'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/596033534657953866/f85c65a23c0ce0e8a08b2f502038ab9a.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>TheM4F
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">41.644</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="741741037755695216" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'server/741741037755695216.html'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/741741037755695216/a_56a3eb50be7ca3389bab4cd5416313f4.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>BaN Land
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">40.870</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="685174863425830984" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'server/685174863425830984.html'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/685174863425830984/a_97d77971cd2dd7af6317e3b60d70a41f.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>Pilavlı e-Sport
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">39.960</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="528925303536484352" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'server/528925303536484352.html'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/528925303536484352/a_85ca876866a7e05f0a8f6b3c1c58cc59.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>Berat Ali Yılmaz
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">39.159</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="911167196871417866" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'server/911167196871417866.html'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/911167196871417866/a_ae472cb0bd9bf305165aee6bb3c90ddc.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>JOIN FOR JOIN 🔥
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">37.528</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="886001385257177108" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'server/886001385257177108.html'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/886001385257177108/a_97822fb692c567c8d0c3d7c3506fbb08.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>LoveClub 💜
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">36.699</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="770955722242523137" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'server/770955722242523137'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/770955722242523137/a_f90fdc00f66d2ee846dcb5e917513008.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>Master Bot List #37K
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">36.573</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="827804745673867264" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/827804745673867264'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/827804745673867264/37859765cb20998ab64680ffc744906f.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>Kapalı #base
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">36.073</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="664206815835455508" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/664206815835455508'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/664206815835455508/a_d8d92fd6478c5e71a71fa879ad7feec8.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>么 H E R O E S
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">35.620</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="845937655828185098" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/845937655828185098'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/845937655828185098/e7993e08198b66b82bc04099b71940a0.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>Bots Homé
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">35.261</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="796980849341104158" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/796980849341104158'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/796980849341104158/50e1c8367c885fe51d00567f101490e2.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>VBots List Fast J4J
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">34.918</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="709003687195836468" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/709003687195836468'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/709003687195836468/da7cd5cc55652ae63bc219d7c4857b02.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>GIF CITY・35K💎
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">34.517</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="816047878329335860" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/816047878329335860'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/816047878329335860/a_b01766ab129832937b5294593006dc0a.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>FBI AİLESİ #BAN AFFI
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">33.042</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="710785270223470592" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/710785270223470592'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/710785270223470592/a_e6ceaec2288e2ee9dff8d71c1b41b6c5.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>Nudezzers Heaven
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">33.019</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="830842259716571176" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/830842259716571176'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/830842259716571176/a_188fa3e7cb7a15f9302f5fd08d013e88.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>Among Us Türkiye
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">32.298</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="876754782025572402" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/876754782025572402'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/876754782025572402/a_749d0301a9b5595c8ccc92ef4d489334.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>NFTLAND • CHILL
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">31.864</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="821471764349583381" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/821471764349583381'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/821471764349583381/a_41ccfdfcf288baa10c9d71bad5eb0fd6.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>BotsZone #2022
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">31.226</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="763012557748699136" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/763012557748699136'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://p7.hiclipart.com/preview/842/992/26/discord-computer-servers-teamspeak-discord-icon.jpg" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>x)
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">31.141</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="841770359979245568" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/841770359979245568'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/841770359979245568/a_49fd4ee2cedf5d543521ad66a5460c5a.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>Anime Türkiye
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">29.956</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="534076005716066315" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/534076005716066315'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/534076005716066315/a_c425a59d2a52b92d3505902380b9e6cf.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>Alaattin ÇAĞIL Oy...
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">29.027</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="711461964529795074" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/711461964529795074'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/711461964529795074/a_5f085ad8e5b67b0ffd454cfd0d33ba3c.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>GIFLINE 30.K
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">28.985</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="852909111007117332" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/852909111007117332'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/852909111007117332/a_edfbc7f3a25463f03a3e5de1ccdcc9f3.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>BANNER STAR
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">28.721</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="745629562301317191" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/745629562301317191'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/745629562301317191/a_94653c05f9bd10b1259f47693f577492.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>(1932) #NORESPECT
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">27.871</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="912608095937654825" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/912608095937654825'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/912608095937654825/a_ce50bd1b4922b38c5596dbd64a54cc19.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>Sex Hub 27k
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">27.274</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="848588111906603028" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/848588111906603028'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/848588111906603028/836cc0f72858698f299e4fd21c63e7f2.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>İtlik Ve Serserilik
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">25.233</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="709344066663350352" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/709344066663350352'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/709344066663350352/dbc3d0a8478e881081b4a75eb4de72a8.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>JOIN FOR JOIN BASE
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">24.900</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="807164024004673576" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/807164024004673576'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/807164024004673576/d2d878ad1970d9671b0861082d3afa44.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>shu
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">24.439</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="506232473152126979" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/506232473152126979'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/506232473152126979/bb2911e26ae27fab47fbd178c6340b0d.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>Epha
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">24.178</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="826510771672449034" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/826510771672449034'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/826510771672449034/a_c9e9eab58df4934c7587d0e697f1c745.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>OwO - Turkey - 🇹...
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">23.548</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="639416734100488202" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/639416734100488202'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/639416734100488202/a_b588e41849632963bb8054d2cdd6eec4.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>Agora
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">22.238</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="721069802503930008" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/721069802503930008'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/721069802503930008/a_e0498feaf871e13b7a595c79e615a853.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>EmojiLand #22K
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">21.698</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="793139884343820309" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/793139884343820309'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/793139884343820309/a_f55ac4990be73ea053b4d8185de1a01c.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>2019
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">21.401</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="811202229587542016" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/811202229587542016'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://p7.hiclipart.com/preview/842/992/26/discord-computer-servers-teamspeak-discord-icon.jpg" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>White Botlistti B...
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">20.879</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="350222814059692032" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/350222814059692032'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/350222814059692032/a_b145667851740ac3d97c1f1dd666b1b0.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>CAFETERIA ☕ #DGKO...
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">20.568</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="745035838236393522" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/745035838236393522'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/745035838236393522/a_d8fb8e1bc7e1088d2318bb2c8b4863ef.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>Simurg
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">19.406</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="397876412599631874" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/397876412599631874'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/397876412599631874/f6d6dd50c5f45baffbf4181de48c8245.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>Ogün Demirci
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">18.525</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="826090392847122502" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/826090392847122502'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/826090392847122502/d1e66e264a42be02bac7c327cf13dd2b.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>Nsfw House #Base
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">18.436</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="842148782862237757" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/842148782862237757'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/842148782862237757/85dca8084560121e72f3c102e1e7ce6a.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>Gazador BotList H...
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">17.835</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="712013021710516324" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/712013021710516324'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/712013021710516324/a_5aaa8aee5fbe7f5fd864294fd770cff8.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>₠ Ç E T E #EKİP ALIM
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">17.534</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="809041964460802098" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/809041964460802098'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/809041964460802098/046fee9694f8f11792d64a1da404f905.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>Pinterest
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">16.980</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="745381015530504313" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/745381015530504313'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/745381015530504313/a_cf46b85ed81b5f101736389ba5ba2a07.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>All dogs go to he...
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">16.744</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="615638915537436673" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/615638915537436673'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/615638915537436673/543b4978d80125bfda65b2cd1a00c64a.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>Gazi
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">16.619</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="695926765927006238" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/695926765927006238'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/695926765927006238/a_eb3f6dc4a854a99bee6dac7eed7bef99.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>GIF STARS #Reborn
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">16.511</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="829705699398778900" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/829705699398778900'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/829705699398778900/7ed80380ca73900b6852e0ddafa1b157.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>Nude Diyarı #Case
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">16.470</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="823945128485715978" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/823945128485715978'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/823945128485715978/a_6247cff2e913578e3d5f0d9c32884ceb.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>✧ S E R E N I A #...
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">15.719</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="549470467522560011" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/549470467522560011'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/549470467522560011/a_99394a0538b16c0bfa2d51cb0d50306d.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>ReapeR » Anime
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">15.560</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="837764353477574677" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/837764353477574677'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/837764353477574677/a_0cc6b6c2b7ea9270389092c1d3536df8.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>Flex Paradise ⍏ #...
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">15.454</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="798892158806917170" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/798892158806917170'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/798892158806917170/011d59e3ee7e5c53800e091e685d0e19.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>Bots List・ #15K!
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">15.352</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="727697270224715884" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/727697270224715884'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/727697270224715884/db8b5a63417fe1a69687a68f7e1959b5.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>#KAPANDI
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">14.866</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="851782410487070740" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/851782410487070740'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/851782410487070740/7799e72e3199e6b1940305cdd4617c32.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>kirallar seventeen
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">14.814</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="763855008356630588" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/763855008356630588'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/763855008356630588/500787ee8be95bd369aa50f60f9638b1.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>GÖKBEN DUMAN
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">14.170</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="847848331438194729" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/847848331438194729'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/847848331438194729/a_4349968a4296cf22f01212ae8819ad8b.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>tr FİFA
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">14.077</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="792572054041395250" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/792572054041395250'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/792572054041395250/a_430060739c32f5db209c8461d6123afe.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>⋈ THAYPON
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">13.996</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="848980363024138290" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/848980363024138290'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/848980363024138290/a_f4f56311f7f47e806dd20f60163f9c91.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>𝓝𝓸𝓶𝓲𝓬𝓸𝓷 †1...
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">13.923</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="910221564883124285" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/910221564883124285'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/910221564883124285/3078c02e380fc39711f0a2f7b0b5b991.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>Verum Doctrina
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">13.677</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="852826246932332585" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/852826246932332585'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/852826246932332585/a_75467b34c4ee9460f34368dfba350ffb.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>Naughty Base 🔞
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">13.466</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="924603410769137674" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/924603410769137674'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/924603410769137674/a_30d3cdddce498348934c0ed8fd620fee.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>Kaju Botlist #13k
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">13.458</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="623910021259984900" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/623910021259984900'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/623910021259984900/a_3f12e564d6c09784b9877d00a516bf72.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>♔ Q U E E N DANS ...
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">13.124</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="786545188897161286" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/786545188897161286'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/786545188897161286/a_e075a7e409baf445a31dc0c7d6ad9bfc.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>I N C I D E N T
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">13.033</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="599008654389149696" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/599008654389149696'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/599008654389149696/7ff1b539c143acc642987b5ff36c039f.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>Yusuf Kayaalp DC
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">13.001</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="801525680176627722" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/801525680176627722'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/801525680176627722/a_cc738bb14d6f48615f35678d9970bce7.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>Ꮠ Dark in Ancient
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">12.606</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="848975895616421908" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/848975895616421908'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/848975895616421908/4fd4de077f12785003ccd5b3072bf1fe.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>Netdark INC. × Su...
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">12.502</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="665157017425543188" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/665157017425543188'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/665157017425543188/a_6bfaae30ba9a2e9b2fe7915ed36b76f6.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>「SHUNKY」 SΞΠΔᴼᴾ✔
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">12.159</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="678310907847376937" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/678310907847376937'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/678310907847376937/a_79913a1a6d57847d373c3cf612ecf353.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>Selampak ・Homé #C...
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">11.792</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="916801316129493052" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/916801316129493052'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/916801316129493052/a_799dec66b1687733ef65eb9a467b2d38.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>GIF PAGE
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">11.685</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="833298261229830184" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/833298261229830184'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/833298261229830184/4597d0aba6d127f4027a25649d091eec.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>BotsArena #11.6K
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">11.643</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="745405716940062843" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/745405716940062843'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/745405716940062843/a_4331a96cf6efbc60b55b98c8825a7e5b.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>➹ Middle Earth
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">11.620</p>
+</div>
+</div>
+<div class="card mb-3 server-list top-4 tet h-item" id="907291732994052146" id="tab-content" style="background-color: #161616; height: 90px; display: block;  margin-bottom: 6px !important; width: 950px; margin-left: auto !important; margin-right: auto !important;" onclick="if (!window.__cfRLUnblockHandlers) return false; location.href = 'https://codesty.org/server/907291732994052146'" data-cf-modified-a79fdab51f18d496fb4af557-="">
+<div class="userinfo" style="margin-left: 3%; background-color: transparent !important; margin-bottom: 0px; float: left; margin-top: 20px !important;">
+<img class="is-rounded unselectable" src="https://cdn.discordapp.com/icons/907291732994052146/a_64bb1493b66c570de9c4cec1707e54c3.webp" style="width: 50px !important; height: 50px !important; display: inline-block !important; vertical-align: middle; border-radius: 50%;">
+<div class="username" style="display: inline-block !important; vertical-align: middle;">
+<p>ග Rivals #FOREVER
+</p>
+</div>
+</div>
+<div class="box-right">
+<i class="fas fa-users" style="color: #f5f5f5; font-size: 23px; float: right; margin-top: 31px; margin-right: 15px;"></i>
+<p style="float: right; margin-right: 20px; font-size: 30px; color: #f5f5f5; margin-top: 20px;">11.545</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section id="waveid">
+<div class="wave wave1"></div>
+</section>
+<div class="bottom">
+<footer class="has-text-centered-mobile footer" style="background-color: #161616 !important; margin-right: auto; margin-left: auto; justify-content: center; padding-top: 70px !important;">
+<div class="container">
+<div class="content">
+<div class="columns">
+<div class="column">
+<h2 class="is-size-5">Codesty</h2>
+<ul>
+<li>
+<a href="https://codesty.org/">
+<span class="icon"><i class="fas fa-home footer-icon"></i></span>
+Ana Sayfa
+</a>
+</li>
+<li>
+<a href="https://codesty.org/member">
+<span class="icon"><i class="fas fa-users footer-icon"></i></span>
+Üye Sayısı Sıralaması
+</a>
+</li>
+<li>
+<a href="https://codesty.org/boost">
+<span class="icon"><i class="fas fa-hand-sparkles footer-icon"></i></span>
+Boost Sıralaması
+</a>
+</li>
+<li>
+<a href="https://codesty.org/partners">
+<span class="icon"><i class="fas fa-hands-helping footer-icon"></i></span>
+Ortaklık
+</a>
+</li>
+</ul>
+</div>
+<div class="column">
+<h2 class="is-size-5">Hakkında</h2>
+<ul>
+<li>
+<a href="https://codesty.org/bot">
+<span class="icon"><i class="fas fa-robot footer-icon"></i></span>
+Botu Davet Et
+</a>
+</li>
+<li>
+<a href="https://codesty.org/discord">
+<span class="icon"><i class="fas fa-hands-helping footer-icon"></i></span>
+Destek Sunucumuz
+</a>
+</li>
+<li>
+<a href="https://codesty.org/team">
+<span class="icon"><i class="fas fa-users footer-icon"></i></span>
+Takımımız
+</a>
+</li>
+<li>
+<a href="https://docs.codesty.org/">
+<span class="icon"><i class="fas fa-question-circle footer-icon"></i></span>
+Yardım
+</a>
+</li>
+</ul>
+</div>
+<div class="column">
+<h2 class="is-size-5">Discord Araçları</h2>
+<ul>
+<li>
+<a href="https://codesty.org/discord/tools">
+<span class="icon"><i class="fas fa-globe-americas footer-icon"></i></span>
+ID'den Tarih Hesapla
+</a>
+</li>
+<li>
+<a href="https://codesty.org/discord/tools">
+<span class="icon"><i class="fas fa-user-check footer-icon"></i></span>
+Kullanıcı Ara
+</a>
+</li>
+<li>
+<a href="https://codesty.org/discord/tools">
+<span class="icon"><i class="fas fa-link footer-icon"></i></span>
+Davet Bağlantısı Ara
+</a>
+</li>
+</ul>
+</div>
+<div class="column">
+<h2 class="is-size-5">Koşulllar</h2>
+<ul>
+<li>
+<a href="https://codesty.org/legal">
+<span class="icon"><i class="fas fa-balance-scale-right footer-icon"></i></span>
+Gizlilik Politikası
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<script src="https://codesty.org/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="a79fdab51f18d496fb4af557-|49" defer=""></script><script type="text/javascript">(function(){window['__CF$cv$params']={r:'6deff45f2a6c92d1',m:'UY_ZtvNS4dHRX4gTDVf8uidzqtDdU2sUICdeBVt0jhI-1645110782-0-AXcAcFwkv+B7eRFUO8zvRXRNyA2eBN1zXH67/pT3QFqJES91LiV97gDJSG/sMawjsXu5qbg27PARejbBM4w7IeLQ+B2LTbb3kYCI372n+JPj+/jT/iZmrKde3IrwFVCEQg==',s:[0xeb78cf8128,0x9f0986412b],u:'/cdn-cgi/challenge-platform/h/b'}})();</script></body>
+
+<!-- Mirrored from codesty.org/member by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 17 Feb 2022 15:17:00 GMT -->
+</html> 
